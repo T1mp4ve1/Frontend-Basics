@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I dati</title>
+    </head>
+    <body style="background-color: rgb(155, 250, 237); color: rgb(3, 35, 39)">
+        <form onsubmit="alert('Registrazione inviata')">
+            <fieldset style="background-color:rgb(187, 143, 114)">
+            <legend>Dati Personali</legend>
+            <input type="text" placeholder="Inserisci il tuo nome"/>
+            <input type="text" placeholder="Inserisci il tuo cognome"/>
+            <input type="date" placeholder="Inserisci la tua data di nascita"/></fieldset>
+            <div><input type="number" placeholder="numero di telefono"/></div>
+            <div><input type="email" placeholder="Inserisci la tua email"/></div>
+            <div><input type="password" placeholder="Inserisci la tua password"/></div>
+            <div><input type="checkbox"/> <label for="terms">Accetto i termini e le condizioni</label></div>
+            <button type="submit">Invia Form</button>
+        </form>
+</html>
